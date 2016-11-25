@@ -10,12 +10,15 @@ var config = {
         path: BUILD_DIR,
         filename: 'bundle.js'
     },
-    module : {
-        loaders : [
+    module: {
+        loaders: [
             {
-                test : /\.jsx?/,
-                include : APP_DIR,
-                loader : 'babel-loader'
+                test: /\.jsx?/,
+                include: APP_DIR,
+                loader: 'babel-loader',
+                query: {
+                    plugins: ['react-html-attrs']
+                }
             }
         ]
     }
