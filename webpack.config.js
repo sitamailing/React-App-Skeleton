@@ -15,8 +15,10 @@ var config = {
             {
                 test: /\.jsx?/,
                 include: APP_DIR,
+                //exclude : /(node_modules | bower_components)/,
                 loader: 'babel-loader',
                 query: {
+                    presets: ['react', 'es2015'],
                     plugins: ['react-html-attrs']
                 }
             }
@@ -25,3 +27,4 @@ var config = {
 };
 
 module.exports = config;
+
