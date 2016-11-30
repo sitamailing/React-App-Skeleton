@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Layout from './components/app/Layout';
+import Route from './Routes/Routes';
 
-ReactDOM.render(
-    <Layout />,
-    document.getElementById('app-root')
-);
+ReactDOM.render(Route, document.getElementById('app-root'));
 

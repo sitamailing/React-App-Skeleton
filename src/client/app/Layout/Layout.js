@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
-import Header from './Header';
-import Footer from './Footer';
+import Header from './Header/Header';
 
 class Layout extends Component {
     render() {
-        this.state = {title: 'title'};
         return (
-            <div className="container">
+            <div class="main-container">
                 <Header/>
-                <Footer/>
+                {this.props.children}
             </div>
         );
     }
