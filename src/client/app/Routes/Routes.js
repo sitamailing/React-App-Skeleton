@@ -20,6 +20,7 @@ export default (
                 <Route path='/journey/growth' component={Growth}/>
             </Route>
         </Route>
+        {/*<Route path="*" component={NoMatch}/>*/}
     </Router>
 );
 
