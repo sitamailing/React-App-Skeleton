@@ -4,7 +4,7 @@ import JourneyLevel from './JourneyLevel';
 class Journey extends Component {
     render() {
         return (
-            <div class="main-container">
+            <div>
                 <JourneyLevel/>
                 {this.props.children}
             </div>

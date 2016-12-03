@@ -1,0 +1,185 @@
+h1 {
+    color: #000;
+    font-size: 42px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.main-wrapper {
+    font-family: 'Helvetica';
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 50px 0 50px;
+    width: 1170px;
+}
+
+.header-container {
+    background-color: #FFFFFF;
+    height: 128px;
+}
+
+.header-container > div {
+    line-height: 128px;
+}
+
+.header-container .title {
+    float: left;
+}
+
+.header-container .navigation {
+    float: right;
+}
+
+.header-container .navigation ul li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header-container .navigation ul li a.active {
+    color: #9013FE;
+    font-weight: bold;
+}
+
+.home-container {
+    background-color: #AEAAAA;
+    color: #FFFFFF;
+    height: 700px;
+}
+
+.sub-container {
+    padding: 50px;
+}
+
+.home-tabs {
+
+}
+
+.home-tab {
+    background-color: #FFFFFF;
+    color: #000;
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+}
+
+.home-tab-left {
+    float: left;
+}
+
+.home-tab-right {
+    float: right;
+}
+
+.feeds {
+    clear: both;
+}
+
+.journey-level > a div {
+    line-height: 150px;
+    height: 150px;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    border: 0.5px solid #B7C1CC;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.journey-level a div.stability {
+    background: url('../images/stabilitynormal@2x.png') no-repeat left 100px center #F6F6F6;
+}
+
+.journey-level a div.development {
+    background: url('../images/developmentnormal@2x.png') no-repeat left 105px center #F6F6F6;
+}
+
+.journey-level a div.growth {
+    background: url('../images/growthnormal@2x.png') no-repeat left 115px center #F6F6F6;
+}
+
+.journey-level a.active div.stability {
+    background: url('../images/stabilityactive@2x.png') no-repeat left 100px center;
+}
+
+.journey-level a.active div.development {
+    background: url('../images/developmentactive@2x.png') no-repeat left 105px center;
+}
+
+.journey-level a.active div.growth {
+    background: url('../images/growthactive@2x.png') no-repeat left 115px center;
+}
+
+.journey-level a.active {
+    color: #9013FE;
+    font-weight: bold;
+}
+
+.journey-content {
+    clear: both;
+}
+
+.description {
+    width: 750px;
+}
+
+.journey-content .container > div {
+    height: 100px;
+    float: left;
+    margin: 35px 0 35px 0;
+    padding: 26px;
+}
+
+.description span {
+    font-size: 25px;
+}
+
+.description p {
+    font-size: 15px;
+    color: #645E5E;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.pregnancy-details {
+    border-left: 1px solid #B7C1CC;
+}
+
+.pregnancy-details table thead tr th {
+    height: 26px;
+}
+
+.pregnancy-details table tbody tr {
+    font-size: 15px;
+    color: #645E5E;
+    line-height: 25px;
+}
+
+.factors {
+    background-color: #F6F6F6;
+    clear: both;
+}
+
+.factors .container {
+    text-align: center;
+}
+
+.factors .container ul li {
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 300px;
+    line-height: 100px;
+    text-align: center;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.extreme-level {
+    background-color: #DCCBF2;
+}
+

@@ -4,11 +4,13 @@ import Menu from './Menu';
 class Header extends Component {
     render() {
         return (
-            <div class="container">
-                <div>
-                    <h1>NicoBoard</h1>
+            <div class="header-container">
+                <div class="container">
+                    <div class="title">
+                        <h1>NICU Patient</h1>
+                    </div>
+                    <Menu/>
                 </div>
-                <Menu/>
             </div>
         );
     }

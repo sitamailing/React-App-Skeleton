@@ -10,10 +10,6 @@ class Factors extends Component {
                         <li><Link path="/journey/stability/respiratory">Respiratory</Link></li>
                         <li><Link path="/journey/stability/respiratory">Heart</Link></li>
                         <li><Link path="/journey/stability/respiratory">Brain</Link></li>
-                        <li><Link path="/journey/stability/respiratory">Heart</Link></li>
-                        <li><Link path="/journey/stability/respiratory">Heart</Link></li>
-                        <li><Link path="/journey/stability/respiratory">Brain</Link></li>
-                        <li><Link path="/journey/stability/respiratory">Heart</Link></li>
                     </ul>
                 </div>
             </div>

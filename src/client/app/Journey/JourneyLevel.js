@@ -4,14 +4,16 @@ import {Link} from 'react-router';
 class JourneyLevel extends Component {
     render() {
         return (
-            <div>
-                <div>
-                    <ul>
-                        <li><Link to="/journey/stability">Stability</Link></li>
-                        <li><Link to="/journey/development">Development</Link></li>
-                        <li><Link to="/journey/growth">Growth</Link></li>
-                    </ul>
-                </div>
+            <div class="journey-level">
+                <Link to="/journey/stability" activeClassName="active">
+                    <div class="stability">Stability</div>
+                </Link>
+                <Link to="/journey/development" activeClassName="active">
+                    <div class="development"><span>Development</span></div>
+                </Link>
+                <Link to="/journey/growth" activeClassName="active">
+                    <div class="growth"><span>Growth</span></div>
+                </Link>
             </div>
         );
     }

@@ -4,23 +4,25 @@ import Feed from './Feed';
 class Home extends Component {
     render() {
         return (
-            <div class="container home-container">
-                <div class="sub-container">
-                    <div>
-                        <div class="left-tab">
-                            <span>
-                                <h2>Journey</h2>
-                                <p>View Visuals of Timothy's health data, refresh insights and direclty communicate with the health care team</p>
-                            </span>
+            <div class="home-container">
+                <div class="container">
+                    <div class="sub-container">
+                        <div class="home-tabs">
+                            <div class="home-tab home-tab-left">
+                                <span>
+                                    <h2>Journey</h2>
+                                    <p>View Visuals of Timothy's health data, refresh insights and direclty communicate with the health care team</p>
+                                </span>
+                            </div>
+                            <div class="home-tab home-tab-right">
+                                <span>
+                                    <h2>Journey</h2>
+                                    <p>View Visuals of Timothy's health data, refresh insights and direclty communicate with the health care team</p>
+                                </span>
+                            </div>
                         </div>
-                        <div class="right-tab">
-                            <span>
-                                <h2>Journey</h2>
-                                <p>View Visuals of Timothy's health data, refresh insights and direclty communicate with the health care team</p>
-                            </span>
-                        </div>
+                        <Feed/>
                     </div>
-                    <Feed/>
                 </div>
             </div>
         );

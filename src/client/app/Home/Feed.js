@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Feed extends Component {
     render() {
         return (
-            <div>
+            <div class="feeds">
                 <div class="feed-options">
                     <ul>
                         <li>Latest Update</li>
