@@ -1,1 +1,1 @@
-# Application Skeleton for React
+# Sample Application In React
